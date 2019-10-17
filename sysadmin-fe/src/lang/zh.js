@@ -1,0 +1,97 @@
+export default {
+  route: {
+    dashboard: '首页',
+    documentation: '文档',
+    guide: '引导页',
+    department: '部门管理',
+    departmentView: '部门管理',
+    permission: '权限管理',
+    permissionAdd: '新增权限',
+    role: '角色管理',//一级导航
+    roleManage: '角色管理',//二级导航
+    roleManageForm:'角色新建',
+    roleManageEdit:'角色修改',
+    selectAccount:'审批人账号查询',
+    roleManageDec:'角色详情',
+    roleAccount:'添加账号',
+    addRoleAccount:'添加',
+    rolePermission: '角色权限',
+    addFormRole: '角色详情',
+    createRoleForm: '角色申请信息',
+    RoleApproveEdit: '角色审批信息',
+    pagePermission: '页面权限',
+    directivePermission: '指令权限',
+    yellowPages: '企业黄页',
+    yellowPageEdit: '黄页设置',
+    companyProduct: '产品设置',
+    demo: '页面示例',
+    accountManage: '账号管理',
+    add: '新增',
+    history: '历史纪录',
+    list: '列表',
+    modify: '修改',
+    staffManage: '员工管理',
+    staffIndex: '员工管理',
+    // insertStaff: '新建员工',
+    addStaff: '新建员工',
+    updateStaff: '修改员工',
+    detailStaff: '员工详情',
+    setDepartment: '分配部门',
+    personalAccountManage: '个人账号管理',
+    passwordReset: '密码重置',
+    basicInfoView: '基本信息查看',
+    companyManage: '公司管理',
+    companyAdd: '新增公司',
+    companyModify:'修改公司',
+    dictionary: "数据字典",
+    roleApply:'角色申请',
+    roleApprove: "角色审批",
+    roleApplyAdd:'角色新建',
+    ApproveRoleInfo: '角色详情',
+		assignPermissions:'分配权限',
+    query: '查询管理',
+    departmentQuery: '部门查询',
+    cityManage: '城市管理',
+    cityQuery: '城市查询',
+    countyQuery: '区县查询',
+    provinceQuery: '省份查询'
+
+  },
+  navbar: {
+    logOut: '退出登录',
+    dashboard: '首页',
+    github: '项目地址',
+    theme: '换肤',
+    size: '布局大小'
+  },
+  login: {
+    title: '系统登录',
+    logIn: '登录',
+    username: '账号',
+    password: '密码',
+    any: '随便填',
+    thirdparty: '第三方登录',
+    thirdpartyTips: '本地不能模拟，请结合自己业务进行模拟！！！'
+  },
+  documentation: {
+    documentation: '文档',
+    github: 'Github 地址'
+  },
+  permission: {
+    addRole: '新增角色',
+    editPermission: '编辑权限',
+    roles: '你的权限',
+    switchRoles: '切换权限',
+    tips: '在某些情况下，不适合使用 v-permission。例如：Element-UI 的 el-tab 或 el-table-column 以及其它动态渲染 dom 的场景。你只能通过手动设置 v-if 来实现。',
+    delete: '删除',
+    confirm: '确定',
+    cancel: '取消'
+  },
+  settings: {
+    title: '系统布局配置',
+    theme: '主题色',
+    tagsView: '开启 Tags-View',
+    fixedHeader: '固定 Header',
+    sidebarLogo: '侧边栏 Logo'
+  }
+}
